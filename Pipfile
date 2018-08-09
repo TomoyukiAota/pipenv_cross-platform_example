@@ -1,0 +1,36 @@
+[[source]]
+
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+theano = "*"
+tensorflow = "*"
+keras = "*"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+seaborn = "*"
+jupyter = "*"
+jupyterlab = "*"
+ipython = "*"
+pandas = "*"
+scikit-learn = "*"
+spyder = "*"
+pillow = "*"
+torch = {version = "==0.4.1", sys_platform = "== 'darwin'"}
+"b4b7455" = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-win_amd64.whl", sys_platform = "== 'win32'"}
+torchvision = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+
+
+[requires]
+
+python_version = "3.6"
